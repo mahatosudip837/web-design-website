@@ -346,3 +346,23 @@ section{
     text-transform: uppercase;
     padding-bottom: 5px;
   }
+
+  /* footer design  */
+  footer{
+    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) ,url('https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+  }
+  footer .navbar-brand{
+    color: #fff;
+  }
+  .footer-top{
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+  }
+  .footer-bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.295);
+    margin-top: 20px;
+    padding: 15px 0;
+  }
