@@ -49,5 +49,13 @@ $(document).ready(function(){
         autoplay:true,
         autoplayTimeout:2000,
         smartSpeed:1000
-    })
+    });
 });
+
+let navbarCollapse = document.querySelector('.navbar-collapse.collapse');
+let navLink = document.querySelectorAll('.nav-link');
+navLink.forEach(function(e){
+        e.addEventListener('click',function(){
+            navbarCollapse.classList.remove('show')
+        })
+})
